@@ -2,8 +2,8 @@
 
 ## Technical information
 ### Repository URL
-[Repository]()
-https://github.com/ucl-comp0035/coursework-1-mslee2129
+[https://github.com/ucl-comp0035/coursework-1-mslee2129]()
+
 ### Set-up instructions
 
 Assume that requirements will be installed from requirements.txt.
