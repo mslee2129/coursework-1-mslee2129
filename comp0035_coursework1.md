@@ -16,13 +16,16 @@ If the marker cannot execute your coursework they can't grade it!
 
 ## Selection of project methodology
 ### Methodology (or combination) selected
-
+CRISP-DM
 ### Selection criteria and justification of selection
 
 
 ## Definition of the business need
 ### Problem definition
-
+Doing business: Different countries offer different environments for a business to thrive, and it is difficult to 
+identify what countries offer the most potential growth of a business. If a company chooses poorly when moving to another
+country, it may result in severe financial losses. It is essential for a business to choose to expand to a country that 
+would maximise its revenue.
 ### Target audience
 
 ### Questions to be answered using the dataset
