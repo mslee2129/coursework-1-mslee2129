@@ -18,14 +18,15 @@ If the marker cannot execute your coursework they can't grade it!
 ### Methodology (or combination) selected
 CRISP-DM
 ### Selection criteria and justification of selection
-
+For this project, I wanted to focus more on the data science aspect of the 
 
 ## Definition of the business need
 ### Problem definition
-Doing business: Different countries offer different environments for a business to thrive, and it is difficult to 
+Doing business: Different countries offer different environments for a business to thrive, and it is often difficult to 
 identify what countries offer the most potential growth of a business. If a company chooses poorly when moving to another
 country, it may result in severe financial losses. It is essential for a business to choose to expand to a country that 
-would maximise its revenue.
+would maximise its revenue. Given a set of 63 indicators and how a country scores in those indicators across the years,
+recommendations will be made on the next steps to take for a business. (I think I still need to specify on what the business actually is)
 ### Target audience
 
 ### Questions to be answered using the dataset
@@ -39,8 +40,9 @@ would maximise its revenue.
 
 ### Prepared data set
 Please add names of your data set files in this repository below, then delete this instruction text.
-[Original data set]()
-[Prepared data set]()
+DBData.csv
+DBCountry.csv
+DBSeries.csv
 
 ### Data exploration
 
