@@ -27,22 +27,27 @@ Justification: For this project, I wanted to focus more on the data science aspe
 as one of the most popular data science methodologies. This would mean that it would have plenty of documentation and 
 support available to assist me throughout the project. Out of the many data science methodologies, I chose CRISP-DM since 
 it is a methodology that allows for the most flexibility, as it is a methodology that combines features of the waterfall 
-and agile methods.
+and agile methods. It also allows for a number of team members to work on various aspects of the project at the same time,
+making it an efficient way to organise and distribute tasks. Also, given my experience with data analysis, there would be
+aspects of this methodology that would be familiar to me, which is an added benefit. The shortcomings of using CRISP-DM
+in this project, however, could be that it lacks some detail that other methodologies do not, and this may lead to some
+oversight or lack of clarity when it comes to the finer details of the project. The fact that it is a data science 
+methodology may also be a weakness, since it may overlook the software engineering aspects such as deployment of their models.
 
 ## Definition of the business need
 ### Problem definition
 Doing business: Different countries offer different environments for a business to thrive, and it is often difficult to 
 identify what countries offer the most potential growth of a business. If a company chooses poorly when moving to another
 country, it may result in severe financial losses. It is essential for a business to choose to expand to a country that 
-would maximise its revenue. Given a set of 205 indicators and how a country scores in those indicators across the years,
-recommendations will be made on the next steps to take for a business.
+would maximise its revenue. This can be especially relevant to newly expanding companies that want minimise the risk of
+failing in their new enterprise. Given a set of 205 indicators and how a country scores in those indicators across the 
+years, recommendations will be made on the next steps to take for a business. 
 
 ### Target audience
-See Persona.pdf
+See [Persona.pdf](Persona.pdf)
 ### Questions to be answered using the dataset
 1. Which countries rank the highest in the 'ease of doing business' criteria?
 2. Which countries have the most business-friendly tax regulations?
-### Suggested web app
 
 ## Data preparation and exploration
 ### Data preparation
