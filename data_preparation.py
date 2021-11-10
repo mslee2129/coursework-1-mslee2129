@@ -35,8 +35,8 @@ if __name__ == '__main__':
     df_country = pd.read_csv("DBCountry.csv")
 
     # uncomment below to explore uncleaned datasets
-    # explore_df(df_data)
-    # explore_df(df_country)
+    explore_df(df_data)
+    explore_df(df_country)
 
     df_data = country_filter(df_data, df_country)
     df_data = indicator_filter(df_data)
@@ -48,4 +48,4 @@ if __name__ == '__main__':
     print(df_data.shape)
     print(df_data.head(10))
 
-    df_data.to_csv("DBData_clean.csv")
+    # df_data.to_csv("DBData_clean.csv")
