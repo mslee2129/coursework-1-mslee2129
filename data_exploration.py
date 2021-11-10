@@ -11,7 +11,7 @@ def create_dataframe(df, indicator):
 
 # function to create bar chart
 def create_bar(x, y, title, xlabel, ylabel, fname):
-    plt.figure(figsize=(50,10))
+    plt.figure(figsize=(50, 15))
     plt.bar(x, y)
     plt.title(title, fontsize=30)
     plt.xlabel(xlabel, fontsize=20)
