@@ -30,7 +30,7 @@ def create_line(df, country, title, ylabel):
     plt.xlabel('Year')
     plt.ylabel(ylabel)
     plt.show()
-    # plt.savefig(country+'.png')
+    plt.savefig(country+'.png')
 
 
 if __name__ == '__main__':
