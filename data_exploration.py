@@ -4,10 +4,12 @@ import matplotlib.pyplot as plt
 from data_preparation import explore_df
 
 
+# function to create smaller dataframes by indicator
 def create_dataframe(df, indicator):
     return df.loc[df['Indicator Name'] == indicator]
 
 
+# function to create bar chart
 def create_bar(x, y, title, xlabel, ylabel, fname):
     plt.figure(figsize=(50,10))
     plt.bar(x, y)
@@ -19,6 +21,7 @@ def create_bar(x, y, title, xlabel, ylabel, fname):
     plt.savefig(fname)
 
 
+# function to create line graph by country and indicator
 def create_line(df, country, title, ylabel):
     df_country = df.loc[df['Country Code'] == country].T
     df_country.drop(df_country.index[0:5], inplace=True)
