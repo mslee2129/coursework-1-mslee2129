@@ -11,12 +11,26 @@ def create_dataframe(df, indicator):
 def create_bar(x, y, title, xlabel, ylabel, fname):
     plt.figure(figsize=(50,10))
     plt.bar(x, y)
-    plt.title(title)
-    plt.xlabel(xlabel)
-    plt.ylabel(ylabel)
+    plt.title(title, fontsize=30)
+    plt.xlabel(xlabel, fontsize=20)
+    plt.ylabel(ylabel, fontsize=20)
     plt.xticks(rotation=45)
     plt.show()
     plt.savefig(fname)
+
+
+def create_line(df, country, title, ylabel):
+    df_country = df.loc[df['Country Code'] == country].T
+    df_country.drop(df_country.index[0:5], inplace=True)
+    df_country.columns = ['Score']
+    # print(df_country)
+    plt.figure(figsize=(8,5))
+    plt.plot(range(2016, 2021), df_country['Score'])
+    plt.title(title)
+    plt.xlabel('Year')
+    plt.ylabel(ylabel)
+    plt.show()
+    # plt.savefig(country+'.png')
 
 
 if __name__ == '__main__':
@@ -52,4 +66,7 @@ if __name__ == '__main__':
     create_bar(countries, df_business_ease_rank['2020'], 'Rank: Ease of Doing Business in 2020 by Country','Country',
                'Rank: Ease of Doing Business 2020', file_names[0])
     create_bar(countries, df_taxes_rank['2020'], 'Rank: Paying taxes (1=most business-friendly regulations)', 'Country',
-               'Rank: Paying taxes', file_names[1])
+                'Rank: Paying taxes', file_names[1])
+
+    # country code is available in DBCountry.csv file, example
+    create_line(df_taxes_score, 'AFG', 'Paying Taxes - Score: AFG', 'Score')
