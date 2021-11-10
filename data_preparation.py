@@ -48,4 +48,4 @@ if __name__ == '__main__':
     print(df_data.shape)
     print(df_data.head(10))
 
-    # df_data.to_csv("DBData_clean.csv")
+    df_data.to_csv("DBData_clean.csv")
