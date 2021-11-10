@@ -37,12 +37,15 @@ if __name__ == '__main__':
     # reading file
     df = pd.read_csv("DBData_clean.csv")
     # explore_df(df)
-    # countries = list(df['Country Name'].unique())
+
+    # indicators to be used
     indicators = ['Rank: Ease of doing business index (1=most business-friendly regulations)',
                   'Rank: Paying taxes (1=most business-friendly regulations)',
                   'Paying taxes: Profit tax (% of profits)',
                   'Global: Ease of doing business score (DB17-20 methodology)',
                   'Paying taxes (DB17-20 methodology) - Score']
+
+    # file names to save graphs
     file_names = ['rank_ease_of_doing_business.png',
                   'rank_paying_taxes.png',
                   'paying_taxes.png',
