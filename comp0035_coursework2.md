@@ -21,9 +21,19 @@ Link to the full list of documented and prioritised requirements.
 For the initial design of the app, I decided to create a wireframe to help visualise the requirements set in my
 Requirements Elicitation. This wireframe was designed using Figma, an online designing software. Some requirements
 (i.e. those with lower priority) have not all been included in the wireframe.
+### Architecture design
+[UML Class Diagram](UML%20Diagram.pdf)
+[Routes, Views, Controller Functions](RoutesViewsControllers.pdf)
+The architecture has been designed using UML diagrams via LucidChart. UML diagrams are an efficient way to visualise
+classes, their attributes and methods, and their relations to other classes. The class diagram includes notations of 
+data types, inheritance, and multiplicity to further specify the roles and relations of the different classes created.
+The routes, views, and controller functions of the architecture is specified in a separate document, with each route 
+having an associated view (using the wireframes created) and controller functions.
 ### Relational database design
-
-### Application structure
+[Relational Database Design](Relational%20Databse%20Diagram.pdf)
+The relational database has been designed using an entity relationship diagram (ERD) via LucidChart. The ERD holds
+information on the entity, keys, fields, and data types, which are all key components of a database. The relationship
+between entities is visualised using the Crows Foot style.
 
 
 ## Testing
