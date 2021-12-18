@@ -45,9 +45,11 @@ between entities is visualised using the Crows Foot style.
 pytest
 ### Tests
 The tests should be in a separate and appropriately named file/directory.
+
 [Test Files](tests)
 ### Test results
 Provide evidence that the tests have been run and the results of the tests (e.g. screenshot).
+
 See [User Test](User%20Test.png)
 ### Continuous integration (optional)
 Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please provide a link to the .yml and a screenshot of the results of a workflow run.
