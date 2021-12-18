@@ -1,6 +1,17 @@
 from user import User
 
 
+def test_create_full_name():
+    """
+    GIVEN a first and last name
+    WHEN the names are combined
+    THEN return the full name
+    """
+    user = User(first_name='user', last_name='name', email='email@email.com', password='password')
+    full_name = user.create_full_name()
+    assert full_name
+
+
 def test_calculate_age(date_of_birth):
     """
     GIVEN a date of birth of a user
@@ -45,4 +56,3 @@ def test_is_correct_password_returns_true(password):
     test_pw = 'password123'
     is_correct = user3.is_correct_password(test_pw)
     assert is_correct is True
-
