@@ -17,13 +17,13 @@ Link to the full list of documented and prioritised requirements.
 
 ## Design
 ### Structure and flow of the interface
-[Wireframe](Wireframe.pdf)
+[Wireframe](design/Wireframe.pdf)
 For the initial design of the app, I decided to create a wireframe to help visualise the requirements set in my
 Requirements Elicitation. This wireframe was designed using Figma, an online designing software. Some requirements
 (i.e. those with lower priority) have not all been included in the wireframe.
 ### Architecture design
 [UML Class Diagram](UML%20Diagram.pdf)
-[Routes, Views, Controller Functions](RoutesViewsControllers.pdf)
+[Routes, Views, Controller Functions](design/RoutesViewsControllers.pdf)
 The architecture has been designed using UML diagrams via LucidChart. UML diagrams are an efficient way to visualise
 classes, their attributes and methods, and their relations to other classes. The class diagram includes notations of 
 data types, inheritance, and multiplicity to further specify the roles and relations of the different classes created.
@@ -44,7 +44,7 @@ The tests should be in a separate and appropriately named file/directory.
 [Test Files](tests)
 ### Test results
 Provide evidence that the tests have been run and the results of the tests (e.g. screenshot).
-
+[User Test](User%20Test.png)
 ### Continuous integration (optional)
 Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please provide a link to the .yml and a screenshot of the results of a workflow run.
 
