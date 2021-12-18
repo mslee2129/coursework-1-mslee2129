@@ -14,17 +14,35 @@ def test_calculate_age(date_of_birth):
 
 def test_hash_password(password):
     """
-    GIVEN a password
-    WHEN the p
-    THEN hash the password
+    GIVEN a user is trying to login
+    WHEN the password is not hashed
+    THEN hash and store the password
     """
     user2 = User(first_name='user', last_name='name', email='email@email.com', password=password)
     pw = user2.hash_password(password)
     assert pw
 
-def test_is_correct_password(password):
+
+def test_is_correct_password_returns_false(password):
     """
-    GIVEN
-    WHEN
-    THEN
+    GIVEN a password
+    WHEN the password doesn't match the hashed password
+    THEN don't accept the login
     """
+    user3 = User(first_name='user', last_name='name', email='email@email.com', password=password)
+    test_pw = 'Password123'
+    is_correct = user3.is_correct_password(test_pw)
+    assert is_correct is False
+
+
+def test_is_correct_password_returns_true(password):
+    """
+    GIVEN a password
+    WHEN the password matches the hashed password
+    THEN accept the login
+    """
+    user3 = User(first_name='user', last_name='name', email='email@email.com', password=password)
+    test_pw = 'password123'
+    is_correct = user3.is_correct_password(test_pw)
+    assert is_correct is True
+
