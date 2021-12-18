@@ -17,7 +17,10 @@ Link to the full list of documented and prioritised requirements.
 
 ## Design
 ### Structure and flow of the interface
-
+[Wireframe](Wireframe.pdf)
+For the initial design of the app, I decided to create a wireframe to help visualise the requirements set in my
+Requirements Elicitation. This wireframe was designed using Figma, an online designing software. Some requirements
+(i.e. those with lower priority) have not all been included in the wireframe.
 ### Relational database design
 
 ### Application structure
@@ -26,10 +29,9 @@ Link to the full list of documented and prioritised requirements.
 ## Testing
 ### Choice of unit testing library
 pytest
-
 ### Tests
 The tests should be in a separate and appropriately named file/directory.
-
+[Test Files](tests)
 ### Test results
 Provide evidence that the tests have been run and the results of the tests (e.g. screenshot).
 
