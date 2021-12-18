@@ -13,7 +13,7 @@ MoSCoW method, which classifies the requirements in 4 tiers of 'Must have', 'Sho
 for now'. The requirements and their priorities have been sorted in a table to make it easier to comprehend.
 ### Documented and prioritised requirements
 Link to the full list of documented and prioritised requirements.
-
+[Requirements](Requirements%20Elicitation.pdf)
 
 ## Design
 ### Structure and flow of the interface
