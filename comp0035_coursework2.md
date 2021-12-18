@@ -5,12 +5,9 @@ coursework if you wish. Alternatively you can use video or audio to provide the 
 
 ## Requirements definition and analysis
 The term 'requirements' is used in the broader sense, user stories and/or use cases may be used.
-### Requirements identification methods
-
-### Requirement specification method
-
-### Prioritisation method
-
+### Requirements elicitation and prioritisation methods
+For this coursework, I have decided to use user stories to specify the requirements. This includes the 'As a, I want, 
+so that' format, so that I could capture the target audience and their needs. 
 ### Documented and prioritised requirements
 Link to the full list of documented and prioritised requirements.
 
