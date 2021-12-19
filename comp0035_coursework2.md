@@ -60,38 +60,3 @@ provide a link to the .yml and a screenshot of the results of a workflow run.
 [.yml file](.github/workflows/python-app.yml)
 [Workflow](Continuous%20Integration.png)
 
-## Weekly progress reports
-
-Copy and paste from Moodle or use the following structure. Delete this instruction text.
-
-What I did in the last week:
-
-- item
-- item
-
-What I plan to do in the next week:
-
-- item
-- item
-
-Issues blocking my progress (state ‘None’ if there are no issues):
-
-- item
-- item
-
-### Report 1
-
-### Report 2
-
-### Report 3
-
-### Report 4
-
-## References
-
-Delete this instruction text before submitting:
-
-- Include references to any templates you have used.
-- If you justify any of your choices with references then remember to also include these.
-- Use any [referencing style](https://library-guides.ucl.ac.uk/referencing-plagiarism/referencing-styles) that you are
-  used to using in your course.
