@@ -1,6 +1,5 @@
 import pytest
 from datetime import date
-from user import User
 
 
 @pytest.fixture(scope='module')
