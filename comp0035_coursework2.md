@@ -13,7 +13,7 @@ MoSCoW method, which classifies the requirements in 4 tiers of 'Must have', 'Sho
 for now'. The requirements and their priorities have been sorted in a table to make it easier to comprehend.
 ### Documented and prioritised requirements
 Link to the full list of documented and prioritised requirements.
-See [Requirements](Requirements%20Elicitation.pdf)
+See [Requirements](requirements/Requirements%20Elicitation.pdf)
 
 ## Design
 ### Structure and flow of the interface
@@ -21,9 +21,11 @@ See [Wireframe](design/Wireframe.pdf)
 
 For the initial design of the app, I decided to create a wireframe to help visualise the requirements set in my
 Requirements Elicitation. This wireframe was designed using Figma, an online designing software. Some requirements
-(i.e. those with lower priority) have not all been included in the wireframe.
+(i.e. those with lower priority) have not all been included in the wireframe. I have decided to design the app for 
+desktop use, since my target audience would mostly be office workers who use a computer more than their phones for
+work. The screen size for the wireframe was therefore set as 1080x768.
 ### Architecture design
-See [UML Class Diagram](UML%20Diagram.pdf)
+See [UML Class Diagram](design/UML%20Diagram.pdf)
 
 See [Routes, Views, Controller Functions](design/RoutesViewsControllers.pdf)
 
@@ -33,7 +35,7 @@ data types, inheritance, and multiplicity to further specify the roles and relat
 The routes, views, and controller functions of the architecture is specified in a separate document, with each route 
 having an associated view (using the wireframes created) and controller functions.
 ### Relational database design
-See [Relational Database Design](Relational%20Databse%20Diagram.pdf)
+See [Relational Database Design](design/Relatonal%20Database%20Design.pdf)
 
 The relational database has been designed using an entity relationship diagram (ERD) via LucidChart. The ERD holds
 information on the entity, keys, fields, and data types, which are all key components of a database. The relationship
@@ -53,6 +55,8 @@ Provide evidence that the tests have been run and the results of the tests (e.g.
 See [User Test](User%20Test.png)
 ### Continuous integration (optional)
 Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please provide a link to the .yml and a screenshot of the results of a workflow run.
+[.yml file](.github/workflows/python-app.yml)
+[Workflow](Continuous%20Integration.png)
 
 ## Weekly progress reports
 
