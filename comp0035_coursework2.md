@@ -13,6 +13,7 @@ MoSCoW method, which classifies the requirements in 4 tiers of 'Must have', 'Sho
 for now'. The requirements and their priorities have been sorted in a table to make it easier to comprehend.
 ### Documented and prioritised requirements
 Link to the full list of documented and prioritised requirements.
+
 See [Requirements](requirements/Requirements%20Elicitation.pdf)
 
 ## Design
@@ -54,7 +55,8 @@ Provide evidence that the tests have been run and the results of the tests (e.g.
 
 See [User Test](User%20Test.png)
 ### Continuous integration (optional)
-Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please provide a link to the .yml and a screenshot of the results of a workflow run.
+Consider using GitHub Actions (or other) to establish a continuous integration pipeline. If you do so then please 
+provide a link to the .yml and a screenshot of the results of a workflow run.
 [.yml file](.github/workflows/python-app.yml)
 [Workflow](Continuous%20Integration.png)
 
