@@ -32,9 +32,9 @@ See [Routes, Views, Controller Functions](design/RoutesViewsControllers.pdf)
 
 The architecture has been designed using UML diagrams via LucidChart. UML diagrams are an efficient way to visualise
 classes, their attributes and methods, and their relations to other classes. The class diagram includes notations of 
-data types, inheritance, and multiplicity to further specify the roles and relations of the different classes created.
-The routes, views, and controller functions of the architecture is specified in a separate document, with each route 
-having an associated view (using the wireframes created) and controller functions.
+data types, inheritance, and multiplicity (where appropriate) to further specify the roles and relations of the 
+different classes created. The routes, views, and controller functions of the architecture is specified in a separate 
+document, with each route having an associated view (using the wireframes created) and controller functions.
 ### Relational database design
 See [Relational Database Design](design/Relatonal%20Database%20Design.pdf)
 
